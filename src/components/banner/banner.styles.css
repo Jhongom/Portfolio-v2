@@ -1,0 +1,16 @@
+.banner_container{
+    padding-top: 150px;
+    background: #ff1e1e;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info{
+    text-align: left;
+    width: 413px;
+}
+
+.img{
+    padding-top: 110px;
+}
