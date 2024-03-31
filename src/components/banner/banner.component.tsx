@@ -5,11 +5,11 @@ const Banner  = () => {
     return (
         <div className='banner_container'>
             <div className="info">
-                <h1>{texts.banner.titulo}</h1>
-                <h2>{texts.banner.subtitulo}</h2>
-                <p>I'm a certified expert in Notion, helping busy people like you be more organized and productive. </p>
-                <p>I design and optimize Notion templates to be clutter-free, so you can focus on what's important and get things done. My work has benefited over 300,000 customers, including students, freelancers, and entrepreneurs.</p>
-
+                <h1 className="title">{texts.banner.title}</h1>
+                <h2 className="subtitle">{texts.banner.subtitle}</h2>
+                <p className="paragraph">{texts.banner.paragraph1} </p>
+                <p className="paragraph">{texts.banner.paragraph2}</p>
+                <button className='btn'>Check my CV</button>
             </div>
             <div className="img">
                 <img src={bannerLaptop} alt="Banner-laptop"/>

@@ -1,0 +1,25 @@
+.skills_container{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+.title_box{
+    text-align: left;
+    width: 650px;
+
+}
+
+.skills-title{
+    font-size: 35px;
+}
+
+.tabs{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.tab-content{
+    display: flex;
+}
