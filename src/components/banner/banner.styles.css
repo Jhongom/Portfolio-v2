@@ -29,6 +29,7 @@
 .paragraph{
     font-size: 18px;
     text-align: left;
+    padding-left: 2px;
 }
 
 .btn{
@@ -46,5 +47,5 @@
     white-space: nowrap;
     margin: 0;
     overflow: hidden;
-    border-radius: .25rem;
+    border-radius: 5px;
 }

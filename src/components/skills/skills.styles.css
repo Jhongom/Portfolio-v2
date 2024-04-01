@@ -1,13 +1,13 @@
 .skills_container{
     display: grid;
     justify-content: center;
-    margin-bottom: 50px;
-
+    margin-bottom: 60px;
+    //background: red;
 }
 .title_box{
     text-align: left;
     width: 650px;
-
+    margin-top: 30px;
 }
 
 .skills-title{
@@ -18,8 +18,39 @@
     display: flex;
     padding-top: 20px;
     padding-bottom: 10px;
+    justify-content: left;
+    gap: 2.5%;
 }
+
+.tabs button{
+    gap: 5px;
+    display: flex;
+    color: #919191;
+    font-size: 15px;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s;
+    border-bottom:  2px solid #efefef;
+
+}
+
+.tabs button:hover{
+    background: #ececec;
+}
+
+
+.tabs span{
+    display: flex;
+    align-items: center;
+    margin-block: 5px;
+}
+
+
 
 .tab-content{
     display: flex;
+
 }
