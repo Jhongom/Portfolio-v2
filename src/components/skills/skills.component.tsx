@@ -22,7 +22,7 @@ const Skills: React.FC = () => {
                 <button
                     className={activeTab === 0 ? 'active' : ''}
                     onClick={() => handleTabChange(0)}
-                ><span> <img src={texts.skills.btn1.icon1} alt="code"/></span>
+                ><span> <img src={code} alt="code"/></span>
                     Software
                 </button>
                 <button
