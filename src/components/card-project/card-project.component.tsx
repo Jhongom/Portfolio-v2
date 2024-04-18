@@ -2,13 +2,9 @@ import "./card-project.styles.css"
 import React from "react";
 import gitHubImg from"../../assets/icons/github-character (1).png"
 import folder from "../../assets/icons/folder-black-24.svg"
+import {Project} from "../projects/projects.component";
 interface CardProjectProps {
-  project:{
-    id : number;
-    name : string;
-    description : string;
-    language : string;
-  };
+  project: Project;
 }
 
 const CardProyect: React.FC<CardProjectProps> = ({project}) => {
