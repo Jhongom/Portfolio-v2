@@ -1,8 +1,5 @@
-.card-list{
+.card-list {
     display: flex;
     box-sizing: border-box;
-    white-space: nowrap;
-    background: red;
-    
-
+    background: transparent;
 }

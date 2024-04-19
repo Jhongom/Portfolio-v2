@@ -1,17 +1,17 @@
 .banner_container{
-    padding-top: 150px;
+    padding-top: 120px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 120px;
     margin-bottom: 50px;
 }
 
 .info{
     text-align: left;
-    width: 413px;
+    width: 500px;
 }
 
-.img{
+.img-banner{
     padding-top: 110px;
 }
 

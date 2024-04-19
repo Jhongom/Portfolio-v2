@@ -11,7 +11,7 @@ const Banner  = () => {
                 <p className="paragraph">{texts.banner.paragraph2}</p>
                 <button className='btn'>Check my CV</button>
             </div>
-            <div className="img">
+            <div className="img-banner">
                 <img src={bannerLaptop} alt="Banner-laptop"/>
             </div>
         </div>

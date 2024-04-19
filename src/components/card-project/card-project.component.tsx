@@ -12,13 +12,13 @@ const CardProyect: React.FC<CardProjectProps> = ({project}) => {
 
   return (
     <div className="card-container">
-      <img src={gitHubImg} alt="github" className="img"/>
+      <img src={gitHubImg} alt="github" className="img-github"/>
       <div className="info-container">
-        <p> <span> <img src={folder} alt="folder"/> </span>
+        <p className="title-card-project"> <span className="spam-card-folder"> <img className="folder-card-project" src={folder} alt="folder"/> </span>
           {name}
         </p>
-        <p>{description}</p>
-        <p>{language}</p>
+        <p className="description-card-project">Description: {description}</p>
+        <p className="language-card-project">Language: {language}</p>
       </div>
     </div>
   );
