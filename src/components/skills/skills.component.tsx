@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import "./skills.styles.css"
-import texts from '../../assets/texts/texts.json'
 import code  from "../../assets/icons/code-24.svg"
 import experience  from "../../assets/icons/verified-24d.svg"
 import language  from "../../assets/icons/emoji-people-24.svg"
